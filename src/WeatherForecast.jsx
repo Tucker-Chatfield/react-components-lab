@@ -6,8 +6,10 @@ import WeatherData from './WeatherData';
 function WeatherForecast({ day, img, imgAlt, conditions, time }) {
   return (
     <div className="weather">
-      <WeatherData day={day} conditions={conditions} time={time} />
-      <WeatherIcon img={img} imgAlt={imgAlt} />
+      <h2>{day}</h2>
+      <p><span>conditions:</span><br />{conditions}</p>
+      <p><span>time:</span><br />{time}</p>
+      <img src={img} alt={imgAlt} />
     </div>
   );
 }

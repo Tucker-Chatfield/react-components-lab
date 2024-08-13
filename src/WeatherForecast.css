@@ -9,6 +9,14 @@ section .weather {
   text-align: center;
 }
 
+.weather p {
+  margin: 5px 0;
+}
+
 .weather span {
   font-weight: bold;
+}
+
+.weather img {
+  margin-top: 10px;
 }
